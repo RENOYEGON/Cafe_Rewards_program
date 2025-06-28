@@ -43,7 +43,7 @@ These groupings provided a solid overview of customer demographics and revenue d
 ## 2.Key Customer Segments
 I performed  RFM segmentation and clustering on the  dataset to identify distinct customer groups for targeted marketing. After importing and filtering transaction data, Recency, Frequency, and Monetary metrics were calculated per customer. Outliers were identified using boxplots and the IQR method, then removed to ensure clean clustering. StandardScaler was applied before running K-Means, with `k=4` selected using the Elbow and Silhouette methods. Clusters were profiled and labeled (e.g., Champions, Slipping Away) based on RFM behavior. Outliers were separately clustered and analyzed for metric-specific extremities. The final segmentation combined core clusters and outliers, which were mapped back to the full event dataset for integrated analysis. 
 
-Here is a detailed [*Technical Documentation of  RFM Segmentation and Clustering Thought Process](https://github.com/RENOYEGON/Cafe_Rewards_program/blob/main/Detailed%20RFM%20Customer%20Segmentation/README.md)
+Here is a detailed [*Technical Documentation of  RFM Segmentation and Clustering Thought Process*](https://github.com/RENOYEGON/Cafe_Rewards_program/blob/main/Detailed%20RFM%20Customer%20Segmentation/README.md)
 
 Here is a snippet of K-Means and Silhoutte score
 
